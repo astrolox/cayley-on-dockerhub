@@ -14,6 +14,7 @@ RUN go install -v github.com/google/cayley/cmd/cayley
 RUN mkdir -p /data
 VOLUME ["/data"]
 
-EXPOSE 64321
+EXPOSE 8080
+CMD ["cayley", "http", "-host", "", "-port", "8080", "-dbpath", "data/testdata.nq"]
 
-CMD ["cayley", "http", "-config", "/data/cayley.cfg", "-init"]
+## CMD ["cayley", "http", "-config", "/data/cayley.cfg", "-init"]
