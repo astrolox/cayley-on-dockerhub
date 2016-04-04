@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="static/branding/cayley_side.png?raw=true" alt="Cayley" />
+  <img src="https://raw.githubusercontent.com/google/cayley/master/static/branding/cayley_side.png" alt="Cayley" />
 </p>
 Cayley is an open-source graph inspired by the graph database behind [Freebase](http://freebase.com) and Google's [Knowledge Graph](https://en.wikipedia.org/wiki/Knowledge_Graph).
 
