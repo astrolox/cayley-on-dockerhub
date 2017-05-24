@@ -1,6 +1,6 @@
 # Cayley Graph Database on DockerHub
 
-**_Current Status: Obsoleted by quay.io/cayleygraph/cayley_**
+**_Current Status: Obsoleted by [quay.io/cayleygraph/cayley](https://quay.io/repository/cayleygraph/cayley)_**
 
 ## Description
 
